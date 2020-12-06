@@ -1,23 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-
-const emojiDictionary = {
-  "😂": "Laughing with tears of Joy",
-  "😎": "Savage",
-  "😢": "Very Sad Face",
-  "😤": "Angry",
-  "😊": "Smiling face",
-  "😑": "Annoyed",
-  "😏": "Smirking",
-  "😮": "Astonished",
-  "🤯": "Mind Blown",
-  "😇": "Blessed",
-  "😐": "Neutral",
-  "🥺": "Pleading",
-  "🤥": "Lying",
-  "🤐": "Speechless",
-  "🤓": "Nerd"
-};
+import emojiDictionary from "./emojiDictionary";
 
 export default function App() {
   const [emojiMeaning, setEmojiMeaning] = useState("");
