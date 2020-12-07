@@ -37,29 +37,37 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Emoji Dictionary</h1>
-      <h2>Enter emoji in the searchbox to know it's meaning.</h2>
+      <div className="container">
+        <h1 className="main-heading">Emoji Dictionary</h1>
+        <h2 className="sub-heading">
+          Enter emoji in the searchbox to know it's meaning.
+        </h2>
 
-      <input onChange={changeInputHandler} />
-      <h3>{emojiMeaning}</h3>
+        <input className="input-emoji" onChange={changeInputHandler} />
+        <h3 className="emoji-meaning">" {emojiMeaning} "</h3>
 
-      <h5>Or click on below emojis to know their meaning...</h5>
-      <br />
-      {emojiArray.map((item) => {
-        return (
-          <span
-            style={{ fontSize: "2rem", padding: "0.5rem", cursor: "pointer" }}
-            onClick={() => emojiClickHandler(item)}
-          >
-            {item}
-          </span>
-        );
-      })}
-      <br />
-      <br />
-      {emojiTypesArray.map((type) => {
-        return <button onClick={() => changeTypeHandler(type)}>{type}</button>;
-      })}
+        <h5 className="info">
+          Or click on below emojis to know their meaning...
+        </h5>
+        <br />
+        {emojiArray.map((item) => {
+          return (
+            <span
+              style={{ fontSize: "2rem", padding: "0.5rem", cursor: "pointer" }}
+              onClick={() => emojiClickHandler(item)}
+            >
+              {item}
+            </span>
+          );
+        })}
+        <br />
+        <br />
+        {emojiTypesArray.map((type) => {
+          return (
+            <button onClick={() => changeTypeHandler(type)}>{type}</button>
+          );
+        })}
+      </div>
     </div>
   );
 }

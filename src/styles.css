@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+  --boxshadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
 .App {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+.container {
+  background-color: #FEF3C7;
+  max-width: 600px;
+  height: 85vh;
+  margin: auto;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--boxshadow);
+}
+
+.main-heading {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #FCD34D;
+  box-shadow: var(--boxshadow);
+  letter-spacing: 1.5px;
+}
+
+.input-emoji{
+  width: 40%;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+.emoji-meaning{
+  padding: 1rem;
+  border: 2px solid #F59E0B;
+  border-radius: 0.5rem;
 }
 
 button {
@@ -10,4 +47,7 @@ button {
   margin: 10px;
   border: 2px solid #fbbf24;
   border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1.5px
 }
