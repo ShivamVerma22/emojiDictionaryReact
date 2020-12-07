@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+button {
+  text-transform: uppercase;
+  padding: 0.5rem;
+  background-color: transparent;
+  margin: 10px;
+  border: 2px solid #fbbf24;
+  border-radius: 0.5rem;
+}

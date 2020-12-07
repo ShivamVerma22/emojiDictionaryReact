@@ -1,19 +1,28 @@
 const emojiDictionary = {
-  "😂": "Laughing with tears of Joy",
-  "😎": "Savage",
-  "😢": "Very Sad Face",
-  "😤": "Angry",
-  "😊": "Smiling face",
-  "😑": "Annoyed",
-  "😏": "Smirking",
-  "😮": "Astonished",
-  "🤯": "Mind Blown",
-  "😇": "Blessed",
-  "😐": "Neutral",
-  "🥺": "Pleading",
-  "🤥": "Lying",
-  "🤐": "Speechless",
-  "🤓": "Nerd"
+  smiley: {
+    "😂": "Laughing with tears of Joy",
+    "😎": "Savage",
+    "😤": "Angry",
+    "😊": "Smiling face",
+    "😑": "Annoyed",
+    "😮": "Astonished",
+    "🤯": "Mind Blown",
+    "😇": "Blessed",
+    "🥺": "Pleading",
+    "🤓": "Nerd"
+  },
+  food: {
+    "🍕": "pizza",
+    "🍔": "burger",
+    "🌭": "hot dog",
+    "🍟": "french fries",
+    "🍨": "ice cream",
+    "🍪": "cookie",
+    "🥐": "croissant",
+    "🥨": "pretzel",
+    "🥞": "pancake",
+    "🥓": "bacon"
+  }
 };
 
 export default emojiDictionary;
