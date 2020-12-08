@@ -12,16 +12,28 @@ const emojiDictionary = {
     "🤓": "Nerd"
   },
   food: {
-    "🍕": "pizza",
-    "🍔": "burger",
-    "🌭": "hot dog",
-    "🍟": "french fries",
-    "🍨": "ice cream",
-    "🍪": "cookie",
-    "🥐": "croissant",
-    "🥨": "pretzel",
-    "🥞": "pancake",
-    "🥓": "bacon"
+    "🍕": "Pizza",
+    "🍔": "Burger",
+    "🌭": "Hot dog",
+    "🍟": "French fries",
+    "🍨": "Ice cream",
+    "🍪": "Cookie",
+    "🥐": "Croissant",
+    "🥨": "Pretzel",
+    "🥞": "Pancake",
+    "🥓": "Bacon"
+  },
+  animals: {
+    "🙈": "See-no-evil monkey",
+    "🙉": "Hear-no-evil monkey",
+    "🙊": "Speak-no-evil monkey",
+    "🦍": "Gorilla",
+    "🐕": "Dog",
+    "🦁": "Lion",
+    "🐅": "Tiger",
+    "🐼": "Panda",
+    "🐨": "Koala",
+    "🐘": "Elephant",
   }
 };
 

@@ -12,9 +12,9 @@
 .container {
   background-color: #FEF3C7;
   max-width: 600px;
-  height: 85vh;
+  min-height: 80vh;
   margin: auto;
-  padding: 2rem 1rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: var(--boxshadow);
 }
